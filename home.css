@@ -14,32 +14,41 @@
     position: relative;
 }
 
+img {
+    width: 200px;
+    /* border: 1px solid black; */
+}
 .navbar{
     font-size: 18px;
     width: 85%;
+    height: 25px;
     margin-left: 20px;
     margin-right: 2px;
     padding: 20px 0px;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: space-between;
-    position: absolute; /* Keeps the navbar on top of the banner */
-    top: 0; /* Positions the navbar at the top of the banner */
-    left: 0; /* Aligns the navbar to the left */
-    z-index: 10;
+    /*position: sticky; /* Keeps the navbar on top of the banner */
+    /*top: 0; /* Positions the navbar at the top of the banner */
+    /*left: 0; /* Aligns the navbar to the left */
+    /*z-index: 10;*/
+    
         
 }
 .navbar ul li{
     list-style: none;
     display: inline-block;
     margin: 0 30px;
-    margin-right: 4px;
+    margin-right: 10px;
+    margin-left: 15vh;
+    padding-left: 10px;
     margin-inline-end: auto;
     position: relative;
+
 }
 .navbar ul li a{
     text-decoration: none;
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
 }
 .navbar ul li a::after{
@@ -54,4 +63,40 @@
 }
 .navbar ul li a:hover::after{
     width: 100%;
+}
+
+.p1 {
+    position: relative;
+    font-size: 25px;
+}
+
+.Breakfast{
+    display: flex;
+}
+.Breakfast h2{
+    font: 2em san-serif;
+    margin-top: 35px;
+    margin-left: 35%;
+}
+
+.Lunch {
+    display: flex;
+}
+
+.Lunch h2 {
+    text-align: center;
+    font: 2em san-serif;
+    margin-top: 35px;
+    margin-left: 35%;
+}
+
+.Dinner {
+    display: flex;
+}
+
+.Dinner h2 {
+    text-align: center;
+    font: 2em san-serif;
+    margin-top: 35px;
+    margin-left: 35%;
 }
