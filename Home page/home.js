@@ -37,21 +37,6 @@ function updateTime() {
     }
 
 }
-
-// // Ensure the DOM is fully loaded before running the script
-// document.addEventListener("DOMContentLoaded", function() {
-//     // Select the h2 element within the lunch section
-//     var lunchHeading = document.querySelector("#lunch h2");
-
-//     // Check if the h2 element exists
-//     if (lunchHeading) {
-//         // Make sure the h2 is visible
-//         lunchHeading.style.display = "block"; // Ensure it is displayed
-//         lunchHeading.style.visibility = "visible"; // Ensure it is visible
-//         lunchHeading.style.color = "#333"; // Set color if needed
-//     }
-// });
-
 function displayDishes(mealType, dishes) {
     const mealItem = document.getElementById(mealType);
     mealItem.style.display = 'block';
