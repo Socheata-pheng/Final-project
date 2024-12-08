@@ -93,12 +93,13 @@ h2{
     text-align: center;
     margin-bottom: 20px;
 }
+
 .meal-container {
+    padding-top: 50px;
     display: flex; 
     flex-wrap: wrap; 
     justify-content: space-around; 
     margin: 10px; 
-
 }
 
 /* Individual dish element */
@@ -131,8 +132,9 @@ h2{
 .Lunch h2 {
     text-align: center;
     font: 2em san-serif;
-    margin-top: 35px;
+    margin-top: 50%;
     margin-left: 35%;
+    visibility: visible;
 }
 
 .Dinner {
@@ -181,16 +183,8 @@ h2{
 }
 
 .p2 {
-    /* position: relative;
-    background-color: white;
-    width: 100%;
-    text-align: center;
-    color: black;
-    padding: 10px;
-    font-size: 18px; */
     display: flex;
-    align-items: center; /* Align items vertically (optional) */
-    /* justify-content: space-between; Add space between items */
+    align-items: center; 
     max-width: 1200px;
     margin: 0 auto;
     margin-top: 30px;
@@ -300,4 +294,9 @@ footer a:hover {
     height: 4vh;
     text-align: center;
     margin-top: 10px;
+}
+
+#breakfast h2, #lunch h2, #dinner h2{
+    margin-top: 20px;
+    margin-bottom: -10px;
 }
